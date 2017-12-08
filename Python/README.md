@@ -1,12 +1,66 @@
 Learning OpenCV in Python from the video: https://www.bilibili.com/video/av13924091/
 
-1.Intro and Loading Images
+# 1.Intro and Loading Images
 
-2.Loading Video Source
+## Functions
 
-3.Drawing and Writing on Image
+cv2.imread()
 
-4.Image Operations
+cv2.imshow()
+
+cv2.waitKey()
+
+cv2.destroyAllWindows()
+
+cv.imwrite()
+
+# Variables
+
+cv2.IMREAD_COLOR = 1
+
+cv2.IMREAD_GRAYSCALE = 0
+
+cv2.IMREAD_UNCHANGED = -1
+
+
+
+# 2.Loading Video Source
+
+## Functions
+
+cv2.VideoCapture()
+
+cv2.VideoWrite_fourcc()
+
+cv2.VideoWrite()
+
+cv2.cvtColor()
+
+
+
+## 3.Drawing and Writing on Image
+
+## Functions
+
+cv2.line()
+
+cv2.rectangle()
+
+cv2.circle()
+
+cv2.ellipse()
+
+cv2.polylines()
+
+cv2.putText()
+
+## Variables
+
+cv.LINE_AA
+
+
+
+# 4.Image Operations
 
 5.Image arithmetices and Logic
 
