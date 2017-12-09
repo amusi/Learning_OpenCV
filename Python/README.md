@@ -62,11 +62,69 @@ cv.LINE_AA
 
 # 4.Image Operations
 
-5.Image arithmetices and Logic
+**Pixel**
 
-6.Thresholding
+img[300, 400]: row=300, col=400
 
-7.Color Filtering
+**Rectangle(ROI)**
+
+roi[300:500, 400:700]: 300 =< row <= 500,  400 =<col <= 700
+
+
+
+# 5.Image Arithmetics and Logic
+
+## Functions
+
+cv2.resize()
+
+cv2.add()
+
+cv2.addWeighted()
+
+cv2.threshold()
+
+cv2.bitwise_and()
+
+cv2.bitwise_or()
+
+cv2.bitwise_no()
+
+cv2.bitwise_xor()
+
+## Variables
+
+cv2.BGR2GRAY
+
+cv2.GRAY2BGR
+
+cv2.THRESH_BINARY
+
+cv2.THRESH_BINARY_INV
+
+# 6.Thresholding
+
+## Functions
+
+cv.threshold()
+
+cv2.cvtColor()
+
+cv2.adaptiveThreshold()
+
+## Variables
+
+cv2.THRESH_BINARY
+
+cv2.THRESH_BINARY_INV
+
+cv2.ADAPTIVE_THRESH_GAUSSIAN_C
+
+cv2.THRESH_OTSU
+
+
+
+# 7.Color Filtering
 
 8.Bluring and Smoothing
 
