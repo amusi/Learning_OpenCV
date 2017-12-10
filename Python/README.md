@@ -126,13 +126,71 @@ cv2.THRESH_OTSU
 
 # 7.Color Filtering
 
-8.Bluring and Smoothing
+## Functions
 
-9.Morphological Transformation
+cv2.inRange()
 
-10.Edge Detection and Gradients
+## Variables
 
-11.Template Matching
+cv2.COLOR_BGR2HSV
+
+
+
+# 8.Bluring and Smoothing
+
+## Functions
+
+cv2.filter2D()
+
+cv2.GaussianBlur()
+
+cv2.medianBlur()
+
+cv2.bilateralFilter()
+
+
+
+# 9.Morphological Transformation
+
+## Functions
+
+cv2.erode()
+
+cv2.dilate()
+
+cv2.morphologyEx()
+
+## Variables
+
+cv2.MORPH_OPEN
+
+cv2.MORPH_CLOSE
+
+cv2.MORPH_TOPHAT
+
+cv2.MORPH_BLACKHAT
+
+
+
+## 10.Edge Detection and Gradients
+
+## Functions
+
+cv2.Laplacian()
+
+cv2.Sobel()
+
+cv2.Canny()
+
+
+
+## Variables
+
+cv2.CV_64F
+
+
+
+# 11.Template Matching
 
 12.GrabCut Foreground Extraction
 
