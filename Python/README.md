@@ -192,11 +192,37 @@ cv2.CV_64F
 
 # 11.Template Matching
 
-12.GrabCut Foreground Extraction
+## Functions
 
-13.Corner Detection
+cv2.matchTemplate()
 
-14.Feature Matching(Homography) Brute Force
+## Variables
+
+cv2.TM_CCOEFF_NORMED
+
+
+
+# 12.GrabCut Foreground Extraction
+
+## Functions
+
+cv2.gradCut()
+
+## Variables
+
+cv2.GC_INT_WITH_RECT
+
+
+
+# 13.Corner Detection
+
+## Functions
+
+cv2.goodFeatureToTrack()
+
+
+
+# 14.Feature Matching(Homography) Brute Force
 
 15.MOG Background Reduction
 
