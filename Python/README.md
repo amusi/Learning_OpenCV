@@ -224,9 +224,59 @@ cv2.goodFeatureToTrack()
 
 # 14.Feature Matching(Homography) Brute Force
 
-15.MOG Background Reduction
+## Functions
 
-16.Haar Cascade Object Detection Face & Eye
+cv2.ORB_create()
+
+xxxdetector.detectAndCompute()
+
+cv2.BFMatcher()
+
+xxxmacther.match()
+
+cv2.drawMatches()
+
+## Variables
+
+cv2.NORM_HAMMING
+
+
+
+# 15.MOG Background Reduction
+
+## Functions
+
+cv2.bgsegm.createBackgroundSubtractorMOG()
+
+cv2.createBackgroundSubtractorMOG2()
+
+cv2.createBackgroundSubtractorKNN()
+
+cv2.bgsegm.createBackgroundSubtractorGMG()
+
+xxxgb.apply()
+
+cv2.findCountours()
+
+cv2.boundingRect()
+
+cv2.contourArea()
+
+cv2.rectangle()
+
+## Variables
+
+cv2.THRESH_BINARY
+
+cv2.MORPH_ELLIPSE
+
+cv2.RETR_EXTERNAL
+
+cv2.CHAIN_APPROX_SIMPLE
+
+
+
+# 16.Haar Cascade Object Detection Face & Eye
 
 17.Making your own Haar Cascade Intro
 
