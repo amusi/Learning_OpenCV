@@ -278,12 +278,34 @@ cv2.CHAIN_APPROX_SIMPLE
 
 # 16.Haar Cascade Object Detection Face & Eye
 
-17.Making your own Haar Cascade Intro
+## Functions
 
-18.Gathering Images for Haar Cascade
+cv2.CascadeClassifier()
 
-19.Cleaning Images and Creating Descriptors
+cascade.detectMultiScale()
 
-20.Training Haar Cascade Object Detection
 
-21.Python for Image Video Analysis
+
+# 17.Making your own Haar Cascade Intro
+
+**Training Steps**
+
+1.collect 'negative' or 'background' images
+
+2.collect or create 'positive' images
+
+3.create a positive vector file by stitching together all positives
+
+4.Trains cascade
+
+Datasets from ImageNet
+
+# 18.Gathering Images for Haar Cascade
+
+
+
+# 19.Cleaning Images and Creating Descriptors
+
+# 20.Training Haar Cascade Object Detection
+
+# 21.Python for Image Video Analysis
