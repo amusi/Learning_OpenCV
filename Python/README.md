@@ -288,6 +288,10 @@ cascade.detectMultiScale()
 
 # 17.Making your own Haar Cascade Intro
 
+**Note: 17,18,19,20,21 could help you train your harr cascade**
+
+
+
 **Training Steps**
 
 1.collect 'negative' or 'background' images
@@ -301,8 +305,6 @@ cascade.detectMultiScale()
 Datasets from ImageNet
 
 # 18.Gathering Images for Haar Cascade
-
-
 
 # 19.Cleaning Images and Creating Descriptors
 
